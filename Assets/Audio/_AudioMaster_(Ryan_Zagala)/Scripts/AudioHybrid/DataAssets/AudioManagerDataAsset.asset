@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f56fa3c9547f243967388134e2a8d3, type: 3}
+  m_Name: AudioManagerDataAsset
+  m_EditorClassIdentifier: 
+  Gameplay_AudioClips: []
+  Gameplay_AudioSourcePrefabs:
+  - {fileID: 946468121605167190, guid: 339d352fd9a541c468efd1938a966460, type: 3}
+  Gameplay_AudioSourceData: {fileID: 11400000, guid: 8d6264f767c7b974790121ee35844cb9,
+    type: 2}
+  UI_AudioClips: []
+  UI_AudioSourcePrefabs: []
+  UI_AudioSourceData: {fileID: 11400000, guid: 6b8e650442420534f970376280e9fa01, type: 2}
+  Ambient_AudioClips: []
+  Ambient_AudioSourcePrefabs: []
+  Ambient_AudioSourceData: {fileID: 11400000, guid: 72d344ecd3f33da46a00e27a38304fe8,
+    type: 2}
+  VoiceActing_AudioClips: []
+  VoiceActing_AudioSourcePrefabs: []
+  VoiceActing_AudioSourceData: {fileID: 11400000, guid: 67868c66c4b00d44980208c7bebd9a07,
+    type: 2}
+  BackgroundMusic_AudioClips: []
+  BackgroundMusic_AudioSourcePrefabs: []
+  BackgroundMusic_AudioSourceData: {fileID: 11400000, guid: 84188c3e8e3ab65478904bcec2da37e2,
+    type: 2}

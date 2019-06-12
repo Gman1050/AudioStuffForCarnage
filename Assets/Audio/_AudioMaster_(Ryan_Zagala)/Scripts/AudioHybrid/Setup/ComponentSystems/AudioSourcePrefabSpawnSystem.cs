@@ -1064,7 +1064,7 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
         */
         #endregion
 
-        if (SceneManager.GetActiveScene().name == "AudioManagerTest2")
+        if (SceneManager.GetActiveScene().name == "AudioManagerTesting")
         {
             #region Testing
             Entities.ForEach((ref AnimationsComponent data) =>
