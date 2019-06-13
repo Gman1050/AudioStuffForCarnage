@@ -14,36 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Gameplay_IDLE_AudioSourcePrefabs: []
   Gameplay_WALK_AudioSourcePrefabs:
-  - {fileID: 8088985307656801916, guid: 04b1331e21d464c428de4577de93d8c0, type: 3}
+  - {fileID: 2459707640981402179, guid: 575fc10dda394154da66bbe5db9d701a, type: 3}
+  - {fileID: 8088985307656801916, guid: 093aef661082a4a4cbee3eff0c983746, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 3968628108849565820, guid: 9caa1e52f804cbb4e8756abb90f5ccef, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
-  - {fileID: 3968628108849565820, guid: 5203ca4d3b45d9749a27e2da9d8cd3d1, type: 3}
-  - {fileID: 8088985307656801916, guid: cdd213c4a7093c04d87ee27b6cf107d9, type: 3}
+  - {fileID: 3968628108849565820, guid: 9caa1e52f804cbb4e8756abb90f5ccef, type: 3}
+  - {fileID: 8088985307656801916, guid: 093aef661082a4a4cbee3eff0c983746, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
-  - {fileID: 2459707640981402179, guid: bad0e5700767bc1408f5d132736a6160, type: 3}
-  - {fileID: 0}
+  - {fileID: 2459707640981402179, guid: 575fc10dda394154da66bbe5db9d701a, type: 3}
   Gameplay_RUN_AudioSourcePrefabs:
-  - {fileID: 8088985307656801916, guid: 04b1331e21d464c428de4577de93d8c0, type: 3}
+  - {fileID: 2459707640981402179, guid: 575fc10dda394154da66bbe5db9d701a, type: 3}
+  - {fileID: 8088985307656801916, guid: 093aef661082a4a4cbee3eff0c983746, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 3968628108849565820, guid: 9caa1e52f804cbb4e8756abb90f5ccef, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
-  - {fileID: 3968628108849565820, guid: 5203ca4d3b45d9749a27e2da9d8cd3d1, type: 3}
-  - {fileID: 8088985307656801916, guid: cdd213c4a7093c04d87ee27b6cf107d9, type: 3}
+  - {fileID: 3968628108849565820, guid: 9caa1e52f804cbb4e8756abb90f5ccef, type: 3}
+  - {fileID: 8088985307656801916, guid: 093aef661082a4a4cbee3eff0c983746, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
   - {fileID: 2459707640981402179, guid: bad0e5700767bc1408f5d132736a6160, type: 3}
-  - {fileID: 0}
   Gameplay_ATTACK_01_AudioSourcePrefabs:
+  - {fileID: 6012500275586146050, guid: 4b8936d6ebc18d0429d62834ebca66d0, type: 3}
   - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
   - {fileID: 1410581624612474815, guid: 46e88eaba9c10584fa00dec193e55044, type: 3}
   - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
@@ -57,8 +58,8 @@ MonoBehaviour:
   - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
   - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
   - {fileID: 3160812542399556723, guid: c5e275644fc9d704c9bb9ce1a75fe5a7, type: 3}
-  - {fileID: 0}
   Gameplay_ATTACK_02_AudioSourcePrefabs:
+  - {fileID: 4377289951543525797, guid: f862b494e6468f246b7e1c61c1a02d5f, type: 3}
   - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
   - {fileID: 1410581624612474815, guid: 46e88eaba9c10584fa00dec193e55044, type: 3}
   - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
@@ -72,7 +73,6 @@ MonoBehaviour:
   - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
   - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
   - {fileID: 5900626807897928376, guid: 0a2afafc66c998949a7544cc69a496fe, type: 3}
-  - {fileID: 0}
   Gameplay_VICTORY_AudioSourcePrefabs:
   - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
   - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
@@ -87,23 +87,23 @@ MonoBehaviour:
   - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
   - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
   - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
-  - {fileID: 0}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
   Gameplay_GETHIT_AudioSourcePrefabs: []
   Gameplay_DEATH_AudioSourcePrefabs:
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
-  - {fileID: 864579077490969233, guid: c36dd742602bc9e46a94c07a5f5d4beb, type: 3}
-  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   - {fileID: 864579077490969233, guid: c36dd742602bc9e46a94c07a5f5d4beb, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 864579077490969233, guid: c36dd742602bc9e46a94c07a5f5d4beb, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
-  - {fileID: 0}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
   Gameplay_DEFEND_AudioSourcePrefabs:
   - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
   - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
@@ -118,22 +118,22 @@ MonoBehaviour:
   - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
   - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
   - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
-  - {fileID: 0}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
   Gameplay_SHIELDBASH_AudioSourcePrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
   Gameplay_CHANNELING_AudioSourcePrefabs:
   - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
   - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
@@ -148,7 +148,7 @@ MonoBehaviour:
   - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
   - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
   - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
-  - {fileID: 0}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
   Gameplay_AudioSourceData: {fileID: 11400000, guid: 8d6264f767c7b974790121ee35844cb9,
     type: 2}
   UI_AudioSourcePrefabs: []

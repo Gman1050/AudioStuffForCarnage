@@ -176,11 +176,12 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
         }
+
         else
         {
             // Humans
-            #region TagGryphon
-            Entities.ForEach((ref AnimationsComponent data, ref TagGryphon tag) =>
+            #region TagGryphon_Element_0
+            Entities.ForEach((ref AnimationsComponent data /*, ref TagGryphon tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -338,8 +339,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagKnight_Element_0
-            Entities.ForEach((ref AnimationsComponent data, ref TagKnight tag) =>
+            #region TagKnight_Element_1
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagKnight tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -494,8 +495,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagLegionnaire_Element_1
-            Entities.ForEach((ref AnimationsComponent data, ref TagLegionnaire tag) =>
+            #region TagLegionnaire_Element_2
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagLegionnaire tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -650,8 +651,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagMarksman_Element_2
-            Entities.ForEach((ref AnimationsComponent data, ref TagMarksman tag) =>
+            #region TagMarksman_Element_3
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagMarksman tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -806,8 +807,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagPaladin_Element_3
-            Entities.ForEach((ref AnimationsComponent data, ref TagPaladin tag) =>
+            #region TagPaladin_Element_4
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagPaladin tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -962,8 +963,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagSiegeEngine_Element_4
-            Entities.ForEach((ref AnimationsComponent data, ref TagSiegeEngine tag) =>
+            #region TagSiegeEngine_Element_5
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagSiegeEngine tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -1120,8 +1121,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagSpellslinger_Element_5
-            Entities.ForEach((ref AnimationsComponent data, ref TagSpellslinger tag) =>
+            #region TagSpellslinger_Element_6
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagSpellslinger tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -1277,8 +1278,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             #endregion
 
             // Orcs
-            #region TagBrute_Element_6
-            Entities.ForEach((ref AnimationsComponent data, ref TagBrute tag) =>
+            #region TagBrute_Element_7
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagBrute tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -1433,8 +1434,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagDemolisher_Element_7
-            Entities.ForEach((ref AnimationsComponent data, ref TagDemolisher tag) =>
+            #region TagDemolisher_Element_8
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagDemolisher tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -1591,8 +1592,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagRaider_Element_8
-            Entities.ForEach((ref AnimationsComponent data, ref TagRaider tag) =>
+            #region TagRaider_Element_9
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagRaider tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -1747,8 +1748,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagSlugger_Element_9
-            Entities.ForEach((ref AnimationsComponent data, ref TagSlugger tag) =>
+            #region TagSlugger_Element_10
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagSlugger tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -1903,8 +1904,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagWarlock_Element_10
-            Entities.ForEach((ref AnimationsComponent data, ref TagWarlock tag) =>
+            #region TagWarlock_Element_11
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagWarlock tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -2059,8 +2060,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagWarlord_Element_11
-            Entities.ForEach((ref AnimationsComponent data, ref TagWarlord tag) =>
+            #region TagWarlord_Element_12
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagWarlord tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;
@@ -2215,8 +2216,8 @@ public class AudioSourcePrefabSpawnSystem : ComponentSystem
             });
             #endregion
 
-            #region TagWyvern_Element_12
-            Entities.ForEach((ref AnimationsComponent data, ref TagWyvern tag) =>
+            #region TagWyvern_Element_13
+            Entities.ForEach((ref AnimationsComponent data/*, ref TagWyvern tag*/) =>
             {
                 float3 spawnPostion = data.spawnAudioSourcePrefabPosition;
                 GameObject audioSourcePrefab;

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2831379665519758817}
   - component: {fileID: 779175216101551467}
-  - component: {fileID: 3919139027741133059}
   - component: {fileID: 2835703685694521966}
   m_Layer: 0
   m_Name: AudioManager
@@ -46,19 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioManagerData: {fileID: 11400000, guid: 89a19320a544cf147b8eb3ec3a4c630e, type: 2}
---- !u!114 &3919139027741133059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2831379665519758816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5f322de0fced104c819369bab9dfc37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitspeed: 50
 --- !u!114 &2835703685694521966
 MonoBehaviour:
   m_ObjectHideFlags: 0
