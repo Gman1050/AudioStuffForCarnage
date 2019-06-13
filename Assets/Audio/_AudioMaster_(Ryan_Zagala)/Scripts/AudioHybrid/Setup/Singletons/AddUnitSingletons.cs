@@ -85,10 +85,10 @@ public class AddUnitSingletons : MonoBehaviour, IConvertGameObjectToEntity
         var animations = new AnimationsComponent
         {
             // For Gameplay
-            unitAudioSourceSpawnGameplayState = UnitAudioSourceSpawnGameplayState.ATTACK_01,
+            unitAudioSourceSpawnGameplayState = UnitAudioSourceSpawnGameplayState.NONE,
 
             // For VoiceActing
-            unitAudioSourceSpawnVoiceActingState = UnitAudioSourceSpawnVoiceActingState.NONE,
+            unitAudioSourceSpawnVoiceActingState = UnitAudioSourceSpawnVoiceActingState.LINE_01,
 
             // Position
             spawnAudioSourcePrefabPosition = new float3(0, 0, 0),

@@ -66,7 +66,7 @@ using UnityEngine;
         /// <param name="element"></param>
         public void SpawnGameplayAudioSourcePrefabOnAnimationFrame(int element)
         {
-            Instantiate(audioManagerData.Gameplay_AudioSourcePrefabs[element], transform.position, Quaternion.identity);
+            //Instantiate(audioManagerData.Gameplay_AudioSourcePrefabs[element], transform.position, Quaternion.identity);
             // ToDo: Still need a way to find position of the gameobject entity 
         }
 
@@ -76,7 +76,7 @@ using UnityEngine;
         /// <param name="element"></param>
         public void SpawnVoiceActingAudioSourcePrefabOnAnimationFrame(int element)
         {
-            Instantiate(audioManagerData.VoiceActing_AudioSourcePrefabs[element], transform.position, Quaternion.identity);
+            //Instantiate(audioManagerData.VoiceActing_AudioSourcePrefabs[element], transform.position, Quaternion.identity);
             // ToDo: Still need a way to find position of the gameobject entity
         }
     }

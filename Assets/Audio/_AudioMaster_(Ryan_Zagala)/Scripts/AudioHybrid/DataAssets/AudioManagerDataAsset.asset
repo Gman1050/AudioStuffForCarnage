@@ -12,23 +12,197 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f56fa3c9547f243967388134e2a8d3, type: 3}
   m_Name: AudioManagerDataAsset
   m_EditorClassIdentifier: 
-  Gameplay_AudioClips: []
-  Gameplay_AudioSourcePrefabs:
-  - {fileID: 946468121605167190, guid: 339d352fd9a541c468efd1938a966460, type: 3}
+  Gameplay_IDLE_AudioSourcePrefabs: []
+  Gameplay_WALK_AudioSourcePrefabs:
+  - {fileID: 8088985307656801916, guid: 04b1331e21d464c428de4577de93d8c0, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 3968628108849565820, guid: 9caa1e52f804cbb4e8756abb90f5ccef, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 3968628108849565820, guid: 5203ca4d3b45d9749a27e2da9d8cd3d1, type: 3}
+  - {fileID: 8088985307656801916, guid: cdd213c4a7093c04d87ee27b6cf107d9, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 2459707640981402179, guid: bad0e5700767bc1408f5d132736a6160, type: 3}
+  - {fileID: 0}
+  Gameplay_RUN_AudioSourcePrefabs:
+  - {fileID: 8088985307656801916, guid: 04b1331e21d464c428de4577de93d8c0, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 3968628108849565820, guid: 9caa1e52f804cbb4e8756abb90f5ccef, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 3968628108849565820, guid: 5203ca4d3b45d9749a27e2da9d8cd3d1, type: 3}
+  - {fileID: 8088985307656801916, guid: cdd213c4a7093c04d87ee27b6cf107d9, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 307628880328542002, guid: 3a62f8b162eaf2544888a4fed61d1d65, type: 3}
+  - {fileID: 2459707640981402179, guid: bad0e5700767bc1408f5d132736a6160, type: 3}
+  - {fileID: 0}
+  Gameplay_ATTACK_01_AudioSourcePrefabs:
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 1410581624612474815, guid: 46e88eaba9c10584fa00dec193e55044, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 5512568016449512143, guid: 92436f8fad829bd40864f607a5534c04, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 5512568016449512143, guid: 92436f8fad829bd40864f607a5534c04, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: -5269395266666956084, guid: 83c6db818b5188e4d86ecef7d6fe6b8d, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 3160812542399556723, guid: c5e275644fc9d704c9bb9ce1a75fe5a7, type: 3}
+  - {fileID: 0}
+  Gameplay_ATTACK_02_AudioSourcePrefabs:
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 1410581624612474815, guid: 46e88eaba9c10584fa00dec193e55044, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 2335291068248917261, guid: 3405b381e3e93bc4b870422b4544fce3, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 2335291068248917261, guid: 3405b381e3e93bc4b870422b4544fce3, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: -5269395266666956084, guid: 83c6db818b5188e4d86ecef7d6fe6b8d, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 974320336130658077, guid: e3ca3dc294c61d54c8fc727f3edaf0d4, type: 3}
+  - {fileID: 5900626807897928376, guid: 0a2afafc66c998949a7544cc69a496fe, type: 3}
+  - {fileID: 0}
+  Gameplay_VICTORY_AudioSourcePrefabs:
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 8307012982306290992, guid: 34824038061b842438c52a81b696577c, type: 3}
+  - {fileID: 0}
+  Gameplay_GETHIT_AudioSourcePrefabs: []
+  Gameplay_DEATH_AudioSourcePrefabs:
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 864579077490969233, guid: c36dd742602bc9e46a94c07a5f5d4beb, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 864579077490969233, guid: c36dd742602bc9e46a94c07a5f5d4beb, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 2185993819831244174, guid: 22290fc0f67bc504aa00d4ced209ee77, type: 3}
+  - {fileID: 0}
+  Gameplay_DEFEND_AudioSourcePrefabs:
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 3772792301432229015, guid: d9d29da682020234cae4b64e5a667467, type: 3}
+  - {fileID: 0}
+  Gameplay_SHIELDBASH_AudioSourcePrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 4440597376783412068, guid: 905d1c8068b31e1489ddd315df9b1895, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Gameplay_CHANNELING_AudioSourcePrefabs:
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 1650482112645237596, guid: 18c43288d1ccfbf488946ead7ffe4044, type: 3}
+  - {fileID: 0}
   Gameplay_AudioSourceData: {fileID: 11400000, guid: 8d6264f767c7b974790121ee35844cb9,
     type: 2}
-  UI_AudioClips: []
   UI_AudioSourcePrefabs: []
   UI_AudioSourceData: {fileID: 11400000, guid: 6b8e650442420534f970376280e9fa01, type: 2}
-  Ambient_AudioClips: []
   Ambient_AudioSourcePrefabs: []
   Ambient_AudioSourceData: {fileID: 11400000, guid: 72d344ecd3f33da46a00e27a38304fe8,
     type: 2}
-  VoiceActing_AudioClips: []
-  VoiceActing_AudioSourcePrefabs: []
   VoiceActing_AudioSourceData: {fileID: 11400000, guid: 67868c66c4b00d44980208c7bebd9a07,
     type: 2}
-  BackgroundMusic_AudioClips: []
+  VoiceActing_Human_Grunt_AudioSourcePrefabs:
+  - {fileID: 1619766346543920426, guid: fc96bbacd159f4c85ae28f4729b5a708, type: 3}
+  - {fileID: 2005849475204094806, guid: 1d375eb08642343cfa8bd42bec68c9b8, type: 3}
+  VoiceActing_Human_Knight_AudioSourcePrefabs: []
+  VoiceActing_Human_Marksman_AudioSourcePrefabs:
+  - {fileID: 1785511002577520048, guid: ef74d6b739fbf4a2abb35bb95afcd979, type: 3}
+  - {fileID: 5914451026728544823, guid: ebe79fe17ed9643b9b86993668edcb2f, type: 3}
+  - {fileID: 883834970372393827, guid: b7741aba249ab42308d24bc2be5583fb, type: 3}
+  - {fileID: 7079397143894404126, guid: 29f18ca42453d459cb659727ae5a0a42, type: 3}
+  - {fileID: 1930154758753496128, guid: cabce1313c6ac4abe9d6be9fc29b2aad, type: 3}
+  - {fileID: 2545704325134548054, guid: fe2a0ea8b5b374a87965895ad813960e, type: 3}
+  VoiceActing_Human_Paladin_AudioSourcePrefabs:
+  - {fileID: 2575970137575269398, guid: cd608f04a0cd74454a12e8c31a1007f5, type: 3}
+  - {fileID: 6917977644451877577, guid: b3a8b05331e1d437d8d73b63f6e96368, type: 3}
+  - {fileID: 2693340238508107915, guid: 42d827f4c4e824379bb3403559352c4e, type: 3}
+  VoiceActing_Human_Soldier_AudioSourcePrefabs:
+  - {fileID: 4751859699941272462, guid: 0751d3b4d2eb34647bc179636a292a0e, type: 3}
+  - {fileID: 428952073101595105, guid: 94b52e84b07ef4cf2b27f1cbdfe207d7, type: 3}
+  VoiceActing_Human_Spellslinger_AudioSourcePrefabs:
+  - {fileID: 7381006423653774358, guid: 7e8f0d5160ee54321a2372bfc6a061a3, type: 3}
+  - {fileID: 3412760792368368618, guid: cd641e707de2e4d73ae9c614b9da0429, type: 3}
+  - {fileID: 1492019525979848913, guid: b29bcd147e7f047d2a7f7da4f656ebe7, type: 3}
+  VoiceActing_Orc_Grunt_AudioSourcePrefabs:
+  - {fileID: 7299853680623007587, guid: 7fd864a8d94d4468997e592a777725e2, type: 3}
+  - {fileID: 9103889488737696132, guid: 29966645aa24d4e1ea815ae523bb17a3, type: 3}
+  - {fileID: 2747107911626350872, guid: 5b935f3ea834a4aedb8010444cac75ce, type: 3}
+  VoiceActing_Orc_Raider_AudioSourcePrefabs:
+  - {fileID: 1151529085901435109, guid: 6e85f1fd0438443dba031938ed395945, type: 3}
+  - {fileID: 363067167427535756, guid: 8c7de061a437a4f01a49fe9afa0c4f75, type: 3}
+  - {fileID: 4128580864159454998, guid: 426bc58f241264f16b123d5ac92f094e, type: 3}
+  - {fileID: 3708435305247500230, guid: 238d6d57f87bd482b8608c33cd655309, type: 3}
+  - {fileID: 6592353206603649295, guid: a2ca17fe2befa477c8442df408df8d4e, type: 3}
+  VoiceActing_Orc_Slugger_AudioSourcePrefabs:
+  - {fileID: 373691413140379743, guid: 9c928aa91a1114c778ba2f8d0bc6cfb3, type: 3}
+  - {fileID: 3503110529060348865, guid: 500cd28161d1b4e5093f5456b8715944, type: 3}
+  - {fileID: 9035891190205160222, guid: 88195ee498fa24a978d5b951919b7dd9, type: 3}
+  - {fileID: 3786478329331623013, guid: b3ded8ae6807349cd8198750a5e57b59, type: 3}
+  VoiceActing_Orc_Warlock_AudioSourcePrefabs:
+  - {fileID: 2440727605255626911, guid: 10391f9f4e63e4087a88a4541548c959, type: 3}
+  - {fileID: 2214702489821971447, guid: 7ed999671606043f0baf870e03ce82dd, type: 3}
+  VoiceActing_Orc_Warlord_AudioSourcePrefabs:
+  - {fileID: 7370925127721704179, guid: 9b4c088c31c6b4769ae9a787f4b6d8dd, type: 3}
+  - {fileID: 6617161728596910269, guid: 9e95e0a4775694c0d9340c3511e9327b, type: 3}
+  - {fileID: 7422633843265243380, guid: 6d02600d983a448ea913d4187f3e2fc3, type: 3}
+  - {fileID: 3192998690811381289, guid: 2d921030d97df4824b9c651a76919acd, type: 3}
   BackgroundMusic_AudioSourcePrefabs: []
   BackgroundMusic_AudioSourceData: {fileID: 11400000, guid: 84188c3e8e3ab65478904bcec2da37e2,
     type: 2}
